@@ -3,7 +3,17 @@
     <title>WEIGHTLIFTING GOOSE</title>
   </head>
   <body>
-    <div align="center"><img src="goosetin.png"/></div>
+    <div align="center"><img id="goosetin" src="goosetin.png"/></div>
     <div align="center"><h2><a href="Halifaaax.ogg">bomb-ass ringtone that respects your freedom</a></div>
+
+    <audio controls id="Halifaaax" style="display: none">
+      <source src="Halifaaax.ogg" type="audio/mpeg">Get a better browser.
+    </audio>
+      
   </body>
+  <script>
+    document.getElementById("goosetin").addEventListener("click", function () {
+      document.getElementById("Halifaaax").play();
+    });
+  </script>
 </html>
